@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>space quiz app</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+  <h2>You have 8 questions according to your preferred difficulty level</h2>
+  <form action="#" id="ques_pref">
+    <input type="number" placeholder="Easy" id="Easy"></input><br>
+    <input type="number" placeholder="Medium" id="Medium"></input><br>
+    <input type="number" placeholder="Hard" id="Hard"></input><br>
+    <span onclick="start()">START</span>
+  </form>
+  </header>
+  
+  <main>
+    <p id="q1"></p>
+    <select id="o1">
+      <option>True</option>
+      <option>False</option>
+    </select>
+    
+    <p id="q2"></p>
+    <select id="o2">
+      <option>True</option>
+      <option>False</option>
+    </select>
+    
+    <p id="q3"></p>
+    <select id="o3">
+      <option>True</option>
+      <option>False</option>
+    </select>
+    
+    <p id="q4"></p>
+    <select id="o4">
+      <option>True</option>
+      <option>False</option>
+    </select>
+    
+    <p id="q5"></p>
+    <select id="o5">
+      <option>True</option>
+      <option>False</option>
+    </select>
+    
+    <p id="q6"></p>
+    <select id="o6">
+      <option>True</option>
+      <option>False</option>
+    </select>
+    
+    <p id="q7"></p>
+    <select id="o7">
+      <option>True</option>
+      <option>False</option>
+    </select>
+    
+    <p id="q8"></p>
+    <select id="o8">
+      <option>True</option>
+      <option>False</option>
+    </select><br>
+    <span id="sub">SUBMIT</span>
+  </main>
+  <footer>
+    <details id="result">
+      <p id="score"></p>
+      <div id="scoreGraph">
+        <div id="colour"></div>
+      </div><br>
+      
+      <p>
+        <b>Questions are based on facts:</b><br><ul>
+        <li>Gravitational force keeps the planet in orbit around the sun and also bend light rays traveling through universe.</li>
+        <li>Saturn has largest rings in our solar system and it has 4 moons from which Titan is largest.</li>
+        <li>Jupiter is largest planet in our solar system and Jupiter has a great red spot on its surface.</li>
+        <li>The shape of milkyway galaxy is spiral.</li>
+        <li>Chromosphere is present in sun.</li>
+        <li>Moon is term used for natural satellites.</li>
+        <li>William Harshel discovered Uranus.</li>
+        <li>Venus is covered by clouds of Sulphuric acid.</li>
+        <li>Mars planet is named on Roman god of war and Neptune was named after Roman godess of love.</li>
+        <li>Mercury is nearest to the sun and Neptune is farthest from the sun in the solar system.</li>
+        <li>Venus has a day last for 8 months.</li>
+        <li>Mercury and Venus take more time than earth to orbit the sun.</li>
+        <li>Yuri gagarin was first man to go in space and Niel Armstrong was first man who land on moon.</li>
+        <li>The invisible matter thought to occupy all space of universe is named as ether.</li>
+        <li>Pioneer 10 was first space probe to leave the solar system.</li>
+        <li>Martin Ryle was first Cambridge professor of radio astronomy.</li>
+        <li>Halley's comet is brightest comet in our solar system.</li>
+        <li>In 17th century a kind of extraterrestrial object has been named after Edmond Halley.</li>
+        <li>The first artificial satellite is Sputnik 1.</li>
+        <li>Steady state theory says that universe appears the same wherever and whenever viewed.</li></ul>
+
+      </p>
+    </details>
+  </footer>
+  
+  <script src="main.js"></script>
+</body>
+</html>
