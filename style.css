@@ -1,0 +1,46 @@
+
+body {
+    font-size: 15pt;
+    margin:0; 
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  text-align: center;
+}
+details{
+  visibility: hidden;
+  margin-left: 10px;
+}
+#scoreGraph {
+  margin-left: 20px;
+  background: red;
+  border: 1px solid black;
+  width: 320px;
+  height: 20px;
+}
+#colour {
+  background: green;
+  height: 20px;
+}
+span {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10px;
+}
+input {
+  border: 2px solid black;
+}
+select {
+  border: 2px solid black;
+}
